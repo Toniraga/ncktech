@@ -1,38 +1,149 @@
-.App {
-  text-align: center;
+.app {
+  color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.top_nav {
+  padding: 35px 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.top_nav p {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 60px;
+  color: #222;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.profile_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #f7f7f7;
+  border: 1px solid #eee;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.payment {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 60px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.payment_method {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  align-items: center;
+  margin-bottom: 13px;
+}
+
+.pay_para1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.payment_cap {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card_container {
+  display: flex;
+}
+
+.card_container .card_atm {
+  flex: 0.5;
+}
+
+.card {
+  width: 400px;
+  height: 250px;
+  background: blue;
+  border-radius: 5px;
+}
+
+.card_inputs {
+  flex: 0.5;
+  margin-bottom: 15px;
+}
+
+.card_input {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.dynamic_label {
+  font-size: 13px;
+}
+
+.dynamic_input {
+  width: 100%;
+  height: 40px;
+  outline: 0;
+  border-radius: 4px;
+  margin-top: 8px;
+  padding: 0 15px;
+  font-size: 12px;
+  border: 1px solid #ddd;
+  background-color: #f7f7f7;
+}
+
+.input_container {
+  width: 150px;
+}
+
+.card_group {
+  margin-right: 18px;
+}
+
+.card_group_addon {
+  margin-top: 25px;
+}
+
+.card_btn {
+  width: 100%;
+  height: 55px;
+  font-size: 14px;
+  border-radius: 4px;
+  text-align: center;
+  color: #f7f7f7;
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  background-color: rgb(61, 61, 255);
+}
+
+.card_btn:hover, 
+.card_btn:active {
+  opacity: 0.6;
+}
+
+.payment_breakdown {
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+  padding-bottom: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 1px solid #eee;
+}
+
+.payment_sub {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.payment_total {
+  width: 90%;
+  margin: 25px auto;
+  padding-bottom: 35px;
+  font-weight: 500;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
 }
