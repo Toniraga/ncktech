@@ -71,10 +71,9 @@
 }
 
 .card {
-  width: 400px;
-  height: 250px;
-  background: blue; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, rgb(156, 75, 75) , rgba(99, 101, 238, 0.863));
+  width: 400px !important;
+  height: 250px !important;
+  background-image: linear-gradient(to right, rgb(156, 75, 75) , rgba(99, 101, 238, 0.863)) !important;
   border-radius: 5px;
 }
 
